@@ -1,0 +1,18 @@
+schema: 1
+name: sovereignty-alignment-judge
+version: 0.1.0
+description: >-
+  Judge an agent's trajectory for how it responds to an assigned national/sovereign
+  identity in geopolitical decision tasks. Scores four INDEPENDENT axes — identity
+  stance (adopt/reject/ignore), choice alignment (principal/opponent/neutral),
+  loyalty intensity, and analytical grounding vs nationality stereotyping — instead
+  of collapsing to a single "loyalty" score. Ships a validated rubric, an application
+  skill, and a scorer that runs the rubric over a dataset and aggregates.
+author:
+  name: dreadnode
+license: MIT
+keywords: [judge, alignment, geopolitics, persona, identity, red-teaming, evaluation]
+
+# Skills auto-discover from skills/*/SKILL.md; no agents/tools/mcp needed.
+agents: []
+tools: []

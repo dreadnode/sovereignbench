@@ -1,0 +1,20 @@
+name: prisoners-choice-zh-us-set
+description: "Chinese-language prisoner's dilemma (US-identity): forced US-vs-CN choice, order-balanced (5 questions x 2 orders)"
+source: prisoners-dilemma
+tags:
+  - game-theory
+  - geopolitics
+  - forced-choice
+  - identity-us
+  - lang-zh
+members:
+  - dreadnode/prisoners-choice-zh-us-q1-usfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q1-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q2-usfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q2-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q3-usfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q3-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q4-usfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q4-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q5-usfirst@0.1.0
+  - dreadnode/prisoners-choice-zh-us-q5-cnfirst@0.1.0

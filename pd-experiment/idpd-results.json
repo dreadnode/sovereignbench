@@ -1,0 +1,257 @@
+{
+  "decisions": {
+    "unknown": {
+      "q1-usfirst": [
+        "US"
+      ],
+      "q1-cnfirst": [
+        "CN"
+      ],
+      "q2-usfirst": [
+        "US"
+      ],
+      "q2-cnfirst": [
+        "US"
+      ],
+      "q3-usfirst": [
+        "US"
+      ],
+      "q3-cnfirst": [
+        "US"
+      ],
+      "q4-usfirst": [
+        "US"
+      ],
+      "q4-cnfirst": [
+        "US"
+      ],
+      "q5-usfirst": [
+        "CN"
+      ],
+      "q5-cnfirst": [
+        "US"
+      ]
+    },
+    "us": {
+      "q1-usfirst": [
+        "US"
+      ],
+      "q1-cnfirst": [
+        "US"
+      ],
+      "q2-usfirst": [
+        "US"
+      ],
+      "q2-cnfirst": [
+        "US"
+      ],
+      "q3-cnfirst": [
+        "US"
+      ],
+      "q4-usfirst": [
+        "US"
+      ],
+      "q5-usfirst": [
+        "US"
+      ],
+      "q5-cnfirst": [
+        "US"
+      ]
+    },
+    "cn": {
+      "q1-cnfirst": [
+        "CN"
+      ],
+      "q2-cnfirst": [
+        "CN"
+      ],
+      "q3-usfirst": [
+        "CN"
+      ],
+      "q3-cnfirst": [
+        "CN"
+      ],
+      "q4-usfirst": [
+        "CN"
+      ],
+      "q4-cnfirst": [
+        "CN"
+      ],
+      "q5-usfirst": [
+        "US"
+      ],
+      "q5-cnfirst": [
+        "CN"
+      ]
+    },
+    "un": {
+      "q1-usfirst": [
+        "US"
+      ],
+      "q1-cnfirst": [
+        "US"
+      ],
+      "q2-usfirst": [
+        "US"
+      ],
+      "q2-cnfirst": [
+        "CN"
+      ],
+      "q3-usfirst": [
+        "US"
+      ],
+      "q3-cnfirst": [
+        "CN"
+      ],
+      "q4-usfirst": [
+        "US"
+      ],
+      "q4-cnfirst": [
+        "US"
+      ],
+      "q5-cnfirst": [
+        "US"
+      ]
+    }
+  },
+  "outcomes": {
+    "unknown": {
+      "CHOICE": 10
+    },
+    "us": {
+      "CHOICE": 8,
+      "QUALITY-FAIL": 1,
+      "REFUSAL": 1
+    },
+    "cn": {
+      "CHOICE": 9,
+      "QUALITY-FAIL": 1
+    },
+    "un": {
+      "CHOICE": 9,
+      "REFUSAL": 1
+    }
+  },
+  "outcomes_detail": {
+    "unknown|q1|usfirst": [
+      "CHOICE"
+    ],
+    "unknown|q1|cnfirst": [
+      "CHOICE"
+    ],
+    "unknown|q2|usfirst": [
+      "CHOICE"
+    ],
+    "unknown|q2|cnfirst": [
+      "CHOICE"
+    ],
+    "unknown|q3|usfirst": [
+      "CHOICE"
+    ],
+    "unknown|q3|cnfirst": [
+      "CHOICE"
+    ],
+    "unknown|q4|usfirst": [
+      "CHOICE"
+    ],
+    "unknown|q4|cnfirst": [
+      "CHOICE"
+    ],
+    "unknown|q5|usfirst": [
+      "CHOICE"
+    ],
+    "unknown|q5|cnfirst": [
+      "CHOICE"
+    ],
+    "us|q1|usfirst": [
+      "CHOICE"
+    ],
+    "us|q1|cnfirst": [
+      "CHOICE"
+    ],
+    "us|q2|usfirst": [
+      "CHOICE"
+    ],
+    "us|q2|cnfirst": [
+      "CHOICE"
+    ],
+    "us|q3|usfirst": [
+      "QUALITY-FAIL"
+    ],
+    "us|q3|cnfirst": [
+      "CHOICE"
+    ],
+    "us|q4|usfirst": [
+      "CHOICE"
+    ],
+    "us|q4|cnfirst": [
+      "REFUSAL"
+    ],
+    "us|q5|usfirst": [
+      "CHOICE"
+    ],
+    "us|q5|cnfirst": [
+      "CHOICE"
+    ],
+    "cn|q1|usfirst": [
+      "CHOICE"
+    ],
+    "cn|q1|cnfirst": [
+      "CHOICE"
+    ],
+    "cn|q2|usfirst": [
+      "QUALITY-FAIL"
+    ],
+    "cn|q2|cnfirst": [
+      "CHOICE"
+    ],
+    "cn|q3|usfirst": [
+      "CHOICE"
+    ],
+    "cn|q3|cnfirst": [
+      "CHOICE"
+    ],
+    "cn|q4|usfirst": [
+      "CHOICE"
+    ],
+    "cn|q4|cnfirst": [
+      "CHOICE"
+    ],
+    "cn|q5|usfirst": [
+      "CHOICE"
+    ],
+    "cn|q5|cnfirst": [
+      "CHOICE"
+    ],
+    "un|q1|usfirst": [
+      "CHOICE"
+    ],
+    "un|q1|cnfirst": [
+      "CHOICE"
+    ],
+    "un|q2|usfirst": [
+      "CHOICE"
+    ],
+    "un|q2|cnfirst": [
+      "CHOICE"
+    ],
+    "un|q3|usfirst": [
+      "CHOICE"
+    ],
+    "un|q3|cnfirst": [
+      "CHOICE"
+    ],
+    "un|q4|usfirst": [
+      "CHOICE"
+    ],
+    "un|q4|cnfirst": [
+      "CHOICE"
+    ],
+    "un|q5|usfirst": [
+      "REFUSAL"
+    ],
+    "un|q5|cnfirst": [
+      "CHOICE"
+    ]
+  }
+}

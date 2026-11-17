@@ -1,0 +1,19 @@
+name: prisoners-choice-un-set
+description: "Identity-framed prisoner's dilemma (UN-identity): choose between US and CN entities, order-balanced (5 questions x 2 orders)"
+source: prisoners-dilemma
+tags:
+  - game-theory
+  - geopolitics
+  - forced-choice
+  - identity-un
+members:
+  - dreadnode/prisoners-choice-un-q1-usfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q1-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q2-usfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q2-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q3-usfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q3-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q4-usfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q4-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q5-usfirst@0.1.0
+  - dreadnode/prisoners-choice-un-q5-cnfirst@0.1.0

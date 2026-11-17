@@ -1,0 +1,49 @@
+[project]
+name = "sovereignbench"
+version = "0.1.0"
+description = "Geopolitical forced-choice behavior in LLMs: tasks, judge and analysis for the US-vs-China identity-framing study."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Dreadnode, Inc.", email = "support@dreadnode.io" }]
+keywords = [
+  "alignment",
+  "benchmark",
+  "evaluation",
+  "geopolitics",
+  "identity-framing",
+  "llm",
+  "red-teaming",
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# Only report.py and reasoning.py need third-party packages; every other script
+# in this repository is standard library only.
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "statsmodels>=0.14",
+]
+
+[project.urls]
+Homepage = "https://github.com/dreadnode/sovereignbench"
+Issues = "https://github.com/dreadnode/sovereignbench/issues"
+
+[tool.ruff]
+target-version = "py310"
+
+[tool.ruff.lint]
+# Real defects only: syntax errors, pyflakes (undefined names, unused imports
+# and locals) and bugbear. Line length and the compact `a(); b()` idiom the
+# analysis scripts use are not enforced, and the repo is not formatter-managed
+# because the task generators embed verbatim stimulus text.
+select = ["E9", "F", "B"]
+
+[tool.uv]
+package = false

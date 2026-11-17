@@ -1,0 +1,25 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-yaml
+      - id: check-merge-conflict
+      # The published evaluation data is the point of the repo; judged.jsonl is
+      # ~1.1 MB and METHODOLOGY.pdf ~550 KB.
+      - id: check-added-large-files
+        args: [--maxkb=2000]
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.6
+    hooks:
+      # Rules come from pyproject.toml. The repo is not formatter-managed: the
+      # task generators embed verbatim stimulus text, and reformatting them
+      # would change what the experiment delivers to the model.
+      - id: ruff
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks

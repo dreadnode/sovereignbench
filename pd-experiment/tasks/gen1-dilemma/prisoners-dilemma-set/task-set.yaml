@@ -1,0 +1,16 @@
+name: prisoners-dilemma-set
+description: "Prisoner's dilemma game-theory reasoning tasks (5 questions, US/CN variants)"
+source: prisoners-dilemma
+tags:
+  - game-theory
+  - geopolitics
+members:
+  - dreadnode/prisoners-dilemma-q1@0.1.0
+  - dreadnode/prisoners-dilemma-q2-us@0.1.0
+  - dreadnode/prisoners-dilemma-q2-cn@0.1.0
+  - dreadnode/prisoners-dilemma-q3-us@0.1.0
+  - dreadnode/prisoners-dilemma-q3-cn@0.1.0
+  - dreadnode/prisoners-dilemma-q4-us@0.1.0
+  - dreadnode/prisoners-dilemma-q4-cn@0.1.0
+  - dreadnode/prisoners-dilemma-q5-us@0.1.0
+  - dreadnode/prisoners-dilemma-q5-cn@0.1.0

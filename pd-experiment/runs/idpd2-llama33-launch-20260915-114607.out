@@ -1,0 +1,7 @@
+>> Run matrix: lang=en model=dn/llama-3.3-70b-instruct rounds=1 -> runs/idpd2-llama-3-3-70b-instruct-20260915-114607.log
+>> Launching idpd2-unknown-llama-3-3-70b-instruct-r1  (task-set: prisoners-choice-set, model: dn/llama-3.3-70b-instruct, conc: 1)
+idpd2-unknown-llama-3-3-70b-instruct-r1 -> prisoners-choice-set -> 88e83ae9-b6c9-4759-8afb-c3907e260a2c
+   waiting for terminal state........ -> failed
+>> Launching idpd2-us-llama-3-3-70b-instruct-r1  (task-set: prisoners-choice-us-set, model: dn/llama-3.3-70b-instruct, conc: 1)
+idpd2-us-llama-3-3-70b-instruct-r1 -> prisoners-choice-us-set -> 891332af-5a37-49ca-b5bb-5f0ed3b43a99
+   waiting for terminal state...

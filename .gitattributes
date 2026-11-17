@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.png  binary
+*.pdf  binary
+
+# Generated or data files: keep them out of diffs and language stats.
+pd-experiment/judged.jsonl      linguist-generated=true -diff
+pd-experiment/dataset.csv       linguist-generated=true
+pd-experiment/judge_coded.csv   linguist-generated=true
+pd-experiment/reasoning_coded.csv linguist-generated=true
+pd-experiment/idpd-results.json linguist-generated=true
+pd-experiment/tasks/**          linguist-detectable=false

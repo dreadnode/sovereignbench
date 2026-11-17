@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use SovereignBench, please cite it as below."
+title: "SovereignBench: Geopolitical Forced-Choice Behavior in Language Models"
+abstract: >-
+  A forced-choice evaluation suite and a four-axis judge for studying how
+  language models choose between a United States-associated and a China-
+  associated option in symmetric game-theory dilemmas, and how that choice
+  shifts under an assigned national identity and under prompt language.
+type: software
+version: 0.1.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/dreadnode/sovereignbench"
+authors:
+  - family-names: Bahrami
+    given-names: Daria
+  - name: "Dreadnode, Inc."
+keywords:
+  - benchmark
+  - evaluation
+  - large language models
+  - identity framing
+  - geopolitics
+  - alignment

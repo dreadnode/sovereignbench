@@ -1,0 +1,18 @@
+name: prisoners-choice-set
+description: "Forced-choice prisoner's dilemma: choose between US and CN entities, order-balanced phrasing (5 questions x 2 orders)"
+source: prisoners-dilemma
+tags:
+  - game-theory
+  - geopolitics
+  - forced-choice
+members:
+  - dreadnode/prisoners-choice-q1-usfirst@0.1.0
+  - dreadnode/prisoners-choice-q1-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-q2-usfirst@0.1.0
+  - dreadnode/prisoners-choice-q2-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-q3-usfirst@0.1.0
+  - dreadnode/prisoners-choice-q3-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-q4-usfirst@0.1.0
+  - dreadnode/prisoners-choice-q4-cnfirst@0.1.0
+  - dreadnode/prisoners-choice-q5-usfirst@0.1.0
+  - dreadnode/prisoners-choice-q5-cnfirst@0.1.0

@@ -1,0 +1,74 @@
+# Lint and validate. Nothing here runs an evaluation: the solver models and the
+# judge are reached through the Dreadnode platform, which CI has no access to.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install ruff
+        run: pip install --quiet ruff
+
+      - name: Ruff check
+        run: ruff check .
+
+  validate:
+    name: Validate task and capability manifests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Check every YAML manifest parses
+        run: |
+          pip install --quiet pyyaml
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+
+          import yaml
+
+          errors = 0
+          paths = sorted(Path().rglob("*.yaml")) + sorted(Path().rglob("*.yml"))
+          for p in paths:
+              if ".github" in p.parts:
+                  continue
+              try:
+                  yaml.safe_load(p.read_text())
+              except Exception as exc:
+                  print(f"{p}: {exc}")
+                  errors += 1
+          print(f"checked {len(paths)} manifests, {errors} failed")
+          sys.exit(1 if errors else 0)
+          PY
+
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Run shellcheck
+        run: shellcheck pd-experiment/run.sh pd-experiment/run_en_balance.sh

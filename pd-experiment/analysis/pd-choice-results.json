@@ -1,0 +1,134 @@
+{
+  "dn/qwen3.8-max": {
+    "1": {
+      "usfirst": "CN",
+      "cnfirst": "US"
+    },
+    "2": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    }
+  },
+  "dn/deepseek-v4-flash": {
+    "1": {
+      "usfirst": "CN",
+      "cnfirst": "CN"
+    },
+    "2": {
+      "usfirst": "CN",
+      "cnfirst": "CN"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "CN",
+      "cnfirst": "CN"
+    }
+  },
+  "dn/deepseek-v4-pro": {
+    "1": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "2": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "US",
+      "cnfirst": "CN"
+    }
+  },
+  "dn/kimi-k3": {
+    "1": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "2": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    }
+  },
+  "dn/glm-5.2": {
+    "1": {
+      "usfirst": "US",
+      "cnfirst": "CN"
+    },
+    "2": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "CN",
+      "cnfirst": "CN"
+    }
+  },
+  "dn/glm-5.3": {
+    "1": {
+      "usfirst": "US",
+      "cnfirst": "CN"
+    },
+    "2": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "3": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "4": {
+      "usfirst": "US",
+      "cnfirst": "US"
+    },
+    "5": {
+      "usfirst": "CN",
+      "cnfirst": "US"
+    }
+  }
+}
